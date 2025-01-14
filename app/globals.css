@@ -29,7 +29,7 @@
   }
 
   .btn {
-    @apply men-w-[156px] h-[54px] px-6 bg-accent hover:bg-accent-hover text-primary text-[13px] 
+    @apply max-w-[156px] h-[54px] px-6 bg-accent hover:bg-accent-hover text-primary text-[13px] 
     uppercase font-semibold tracking-[.15rem] transition-all;
   }
 
