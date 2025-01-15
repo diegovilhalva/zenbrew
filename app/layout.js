@@ -1,6 +1,7 @@
 import { Cormorant_Upright, Open_Sans } from "next/font/google"
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const cormorant_upright = Cormorant_Upright({ 
   subsets: ["latin"], 
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
