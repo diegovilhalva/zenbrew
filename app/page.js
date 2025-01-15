@@ -3,6 +3,7 @@ import About from "@/components/About"
 import Explore from "@/components/Explore"
 import Hero from "@/components/Hero"
 import Menu from "@/components/Menu"
+import OpeningHours from "@/components/OpeningHours"
 import Testimonials from "@/components/Testimonials"
 import { useEffect } from "react"
 
@@ -26,6 +27,7 @@ const Home = () => {
       <About/>
       <Menu />
       <Testimonials />
+      <OpeningHours />
       <div className="h-[4000px]"></div>
     </div>
   )
